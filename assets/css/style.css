@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    cursor: default;
+}
+
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+}
+
+p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    text-align: center;
+}
+
+button {
+    color: #33A8DB;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    width: 326px;
+    height: 57px;
+    padding: 19px;
+    border: 2px solid #33a8db;
+    background: rgba(0, 0, 0, 0);
+    letter-spacing: 0.21em;
+}
+button:hover {
+    border-color: #FFF;
+    color: #FFF;
+    cursor: pointer;
+}
+span {
+    color: #33A8DB;
+}
+
+h1 {
+    color: #33A8DB;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #33A8DB;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37.57px;
+    letter-spacing: 0.19em;
+    text-align: center;
+}
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    height: 540px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(49, 168, 221, 0.2), rgba(0, 0, 0, 0.6)), url("../images/banner.png");
+    background-blend-mode: luminosity;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin: 0px;
+    padding-top: 60px;
+    border-bottom: 0.1px solid #33A8DB;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 393px;
+}
+
+.logo {
+    padding: 16px;
+    display: block;
+    box-sizing: border-box;
+    width: 260px;
+    height: 260px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+}
+
+#course-content {
+    height: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#course-content p {
+    text-align: center;
+    width: 792px;
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: 400;
+}
+
+.module-list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.module {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    margin: 24px;
+    padding: 16px 127px;
+    text-align: center;
+    width: 335px;
+    max-height: 51px;
+    background: rgba(37, 37, 37, 1);
+    border: 1px solid rgba(51, 168, 219, 1);
+    border-radius: 57px;
+    box-shadow: inset -2px 6px 4px 0px rgba(0, 0, 0, 0.4);
+}
+
+#transform-world {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 560px;
+    background: url('../images/woman-code.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    border-top: 1px solid #33A8DB;
+    border-bottom: 1px solid #33A8DB;
+}
+
+#transform-world p {
+    width: 250px;
+    height: 141px;
+    margin: 0px;
+    margin-left: 15%;
+    padding: 0px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    text-transform: lowercase;
+    text-align: left;
+    color: rgba(255, 255, 255, 1);
+    text-shadow: rgba(51, 168, 219, 1) 3px 2px;
+}
+
+#professional-challenges {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 860px;
+}
+
+#professional-challenges p {
+    width: 792px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.78px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(51, 168, 219, 0) 0%, rgba(51, 168, 219, 0.2) 99.99%, rgba(51, 168, 219, 0.2) 100%);
+    width: 100%;
+    height: 200px;
+    border-top: 1px solid rgba(51, 168, 219, 1)
+}
+
+footer img {
+    width: 310px;
+    height: 44px;
+    top: 59px;
+    left: 565px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+footer a {
+    color: #33A8DB;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.78px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 16px;
+}
